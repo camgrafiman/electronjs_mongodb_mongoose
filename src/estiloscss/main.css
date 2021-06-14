@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    margin: 20px;
+}
+
+#formulario {
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#formulario>* {
+    display: block;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#formulario>button {
+    background: darkslategray;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid darkslategray;
+}
+
+#formulario>button:hover {
+    background: darkslateblue;
+    color: white;
+    border: 1px dotted black;
+}
+
+#tareasContainer {
+    margin: 30px;
+    border: 1px solid cadetblue;
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+
+#tareasContainer li {
+    margin-bottom: 12px;
+    padding: 10px 8px;
+    border: 1px dashed cadetblue;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    transition: .4s all;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    -ms-transition: .4s all;
+    -o-transition: .4s all;
+    cursor: pointer;
+}
+
+#tareasContainer li:hover {
+    border: 1px dashed blueviolet;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: pointer;
+}
+
+button.editar {
+    background-color: goldenrod;
+    color: black;
+    padding: 5px 4px;
+    border-style: none;
+    cursor: pointer;
+}
+
+button.eliminar {
+    background-color: red;
+    color: white;
+    padding: 5px 4px;
+    border-style: none;
+    cursor: pointer;
+}

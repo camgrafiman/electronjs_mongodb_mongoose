@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electron Rulez!</title>
+    <link rel="stylesheet" href="./estiloscss/main.css">
+</head>
+<!-- Interfaz -->
+
+<body>
+    <div id="root">
+        <h1>Electron & MongoDB CRUD</h1>
+        <form action="" id="formulario">
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre de tarea...">
+            <textarea name="" id="descripcion" cols="30" rows="3" placeholder="Descripción de la tarea..."></textarea>
+            <button id="botonGuardar" type="submit">Guardar</button>
+        </form>
+
+
+        <ul id="tareasContainer"></ul>
+    </div>
+    <script src="./ui/app.js"></script>
+</body>
+
+</html>

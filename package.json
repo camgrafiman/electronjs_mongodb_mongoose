@@ -1,0 +1,20 @@
+{
+    "name": "electron-testing",
+    "version": "1.0.0",
+    "description": "App de prueba de Electron JS. CRUD",
+    "main": "src/index.js",
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "electron": "^10.1.2",
+        "mongoose": "^5.10.7"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "electron ."
+    },
+    "author": "Alejandro Gallego",
+    "license": "ISC"
+}
